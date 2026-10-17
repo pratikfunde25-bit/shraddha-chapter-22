@@ -200,9 +200,9 @@ function initProgressBar() {
 function startCountdown() {
   const updateCountdown = () => {
     const now    = new Date();
-    // Target: 28 Oct 2026 00:00:00 IST = UTC+5:30
-    // IST offset = 5.5 hours = 19800 seconds
-    const target = new Date('2026-10-28T00:00:00+05:30');
+    // Target: Birthday from config (18 Oct 2026 00:00:00 IST = UTC+5:30)
+    const targetDateStr = (CFG && CFG.birthday ? CFG.birthday : '2026-10-18') + 'T00:00:00+05:30';
+    const target = new Date(targetDateStr);
     const diff   = target - now;
 
     const cdDays  = document.getElementById('cd-days');
