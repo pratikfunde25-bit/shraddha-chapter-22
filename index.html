@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shraddha — Chapter 22 | A Birthday Love Story</title>
+  <meta name="description" content="A cinematic, interactive birthday love story for Shraddha's 22nd birthday. 22 memories, one extraordinary person, a story still being written." />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION PROGRESS BAR -->
+  <div id="progress-bar" aria-hidden="true"></div>
+
+  <!-- FLOATING MUSIC PLAYER -->
+  <div id="music-player" class="music-player" aria-label="Music player">
+    <audio id="bg-audio" preload="none" loop>
+      <source src="audio/song.mp3" type="audio/mpeg" />
+    </audio>
+    <button id="music-toggle" class="music-btn" aria-label="Play background music" title="Play music">
+      <svg id="play-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+      <svg id="pause-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="display:none"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+    </button>
+    <div class="music-info">
+      <span class="music-note">♪</span>
+      <span id="music-title">Add your song</span>
+    </div>
+    <div class="music-visualizer" id="music-visualizer" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+  </div>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero" aria-label="Hero">
+    <div class="hero-bg" aria-hidden="true">
+      <img src="images/hero-bg.jpg" alt="" class="hero-bg-img" loading="eager" />
+      <div class="hero-overlay"></div>
+      <div class="petals-container" id="petals" aria-hidden="true"></div>
+      <div class="particles-container" id="particles" aria-hidden="true"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge reveal-up" style="--delay:0.2s">
+        <span>18 October 2026</span>
+      </div>
+
+      <h1 class="hero-title reveal-up" style="--delay:0.5s">
+        <span class="hero-title-line">Shraddha,</span>
+        <span class="hero-title-highlight">My Favourite Story ❤️</span>
+      </h1>
+
+      <p class="hero-subtitle reveal-up" style="--delay:0.9s">
+        Some of the most beautiful stories begin in the most unexpected ways. Ours began with DSA, a few misunderstandings, countless memories, and a love I never want to stop choosing.
+      </p>
+
+      <div class="hero-actions reveal-up" style="--delay:1.2s">
+        <button id="open-surprise-btn" class="btn btn-primary btn-glow" onclick="openSurprise()">
+          <span>Open Your Birthday Surprise</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </button>
+        <a href="#countdown" class="hero-scroll-link">Our story begins here ↓</a>
+      </div>
+    </div>
+
+    <div class="scroll-indicator" aria-hidden="true">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- MAIN SITE CONTENT (revealed after click) -->
+  <main id="main-content" class="site-hidden">
+
+    <!-- COUNTDOWN SECTION -->
+    <section id="countdown" class="section countdown-section" aria-label="Birthday countdown">
+      <div class="section-inner">
+        <div class="section-eyebrow reveal-up">Counting Down</div>
+        <h2 class="section-title reveal-up">
+          <span id="countdown-heading">Counting down to the day<br/>my favourite person was born. ❤️</span>
+        </h2>
+        <div class="countdown-grid reveal-up" id="countdown-grid" role="timer" aria-live="polite" aria-atomic="true">
+          <div class="countdown-panel glass-panel">
+            <div class="countdown-number" id="cd-days">--</div>
+            <div class="countdown-label">Days</div>
+          </div>
+          <div class="countdown-sep" aria-hidden="true">:</div>
+          <div class="countdown-panel glass-panel">
+            <div class="countdown-number" id="cd-hours">--</div>
+            <div class="countdown-label">Hours</div>
+          </div>
+          <div class="countdown-sep" aria-hidden="true">:</div>
+          <div class="countdown-panel glass-panel">
+            <div class="countdown-number" id="cd-mins">--</div>
+            <div class="countdown-label">Minutes</div>
+          </div>
+          <div class="countdown-sep" aria-hidden="true">:</div>
+          <div class="countdown-panel glass-panel">
+            <div class="countdown-number" id="cd-secs">--</div>
+            <div class="countdown-label">Seconds</div>
+          </div>
+        </div>
+        <div id="birthday-message" class="birthday-banner hidden" aria-live="assertive">
+          <div class="birthday-banner-inner">
+            <div class="birthday-firework" aria-hidden="true">🎉</div>
+            <h3>IT'S YOUR DAY, SHRADDHA!</h3>
+            <p class="birthday-age-reveal">HAPPY 22ND BIRTHDAY!</p>
+            <p class="birthday-chapter">22 beautiful years of you, and the beginning of your 23rd chapter.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 22 MEMORIES TIMELINE -->
+    <section id="memories" class="section memories-section" aria-label="22 memories">
+      <div class="section-inner">
+        <div class="section-eyebrow reveal-up">Our Story</div>
+        <h2 class="section-title reveal-up">22 Memories,<br/><em>One Love Story</em></h2>
+        <p class="section-subtitle reveal-up">Every chapter matters. Even the imperfect ones.</p>
+      </div>
+      <div class="timeline" id="timeline"></div>
+      <div class="section-inner">
+        <div class="memories-finale reveal-up">
+          <div class="finale-number" aria-hidden="true">22</div>
+          <p class="finale-text">22 memories. One extraordinary person.<br/><em>A story that is still becoming more beautiful.</em></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 22 REASONS I LOVE YOU -->
+    <section id="love-notes" class="section love-notes-section" aria-label="22 reasons I love you">
+      <div class="section-inner">
+        <div class="section-eyebrow reveal-up">From the Heart</div>
+        <h2 class="section-title reveal-up">22 Little Reasons<br/><em>I Love You</em></h2>
+        <p class="section-subtitle reveal-up">Tap each card to reveal a reason. ✨</p>
+        <div class="love-notes-grid" id="love-notes-grid" role="list"></div>
+        <div class="love-notes-finale reveal-up">
+          <p>"And if I had another 22 reasons to write, I would still find more things to appreciate about you."</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARINE DRIVE DREAM SECTION -->
+    <section id="marine-dream" class="section dream-section" aria-label="Our Marine Drive dream">
+      <div class="dream-bg" aria-hidden="true">
+        <img src="images/marine-drive-dream.jpg" alt="" class="dream-bg-img" loading="lazy" />
+        <div class="dream-overlay"></div>
+      </div>
+      <div class="section-inner dream-inner">
+        <div class="section-eyebrow reveal-up" style="color:#D8B878">A Shared Dream</div>
+        <h2 class="section-title reveal-up dream-title">One Day,<br/><em>Let's Come Back Here.</em></h2>
+        <div class="dream-text reveal-up">
+          <p>Remember how we imagined coming back to Marine Drive five or ten years later, with our own flat and a life we had built together?</p>
+          <p>I don't know exactly what the future will look like, but that conversation is a memory I want to keep close.</p>
+          <p>Maybe one day we will return to this city, look at the same lights and smile at how far we have come.</p>
+        </div>
+        <div class="dream-quote-card reveal-up glass-panel">
+          <p class="dream-quote">"The best view comes after the hardest climb."</p>
+        </div>
+        <button class="btn btn-outline reveal-up" id="save-dream-btn" onclick="saveDream()">Save This Dream</button>
+        <div id="dream-saved" class="dream-saved-msg hidden"><span>✨</span> One of the dreams we will carry forward.</div>
+      </div>
+    </section>
+
+    <!-- LOVE LETTER SECTION -->
+    <section id="letter" class="section letter-section" aria-label="A letter from Pratik">
+      <div class="section-inner">
+        <div class="section-eyebrow reveal-up">Written With Love</div>
+        <h2 class="section-title reveal-up">A Letter from Pratik</h2>
+        <p class="section-subtitle reveal-up">Some things are easier to write than to say out loud.</p>
+        <button class="btn btn-primary reveal-up" id="read-letter-btn" onclick="openLetter()">Read My Letter</button>
+      </div>
+    </section>
+
+    <!-- BIRTHDAY FINALE -->
+    <section id="finale" class="section finale-section" aria-label="Birthday finale">
+      <div class="section-inner">
+        <div class="section-eyebrow reveal-up">One Last Thing</div>
+        <h2 class="section-title reveal-up">There's One More<br/>Surprise, Shraddha ✨</h2>
+        <button class="btn btn-primary btn-glow reveal-up" id="open-finale-btn" onclick="openFinale()">One Last Surprise, Shraddha</button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- LETTER MODAL -->
+  <div id="letter-modal" class="modal" role="dialog" aria-modal="true" aria-label="Love letter from Pratik" hidden>
+    <div class="modal-backdrop" onclick="closeLetter()"></div>
+    <div class="modal-panel letter-modal-panel">
+      <button class="modal-close" onclick="closeLetter()" aria-label="Close letter">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <div class="letter-paper">
+        <div class="letter-header">
+          <div class="letter-stamp" aria-hidden="true">❤️</div>
+          <p class="letter-date">28 October 2026</p>
+        </div>
+        <div class="letter-body" id="letter-body"></div>
+        <div class="letter-signature">
+          <span class="handwritten">Always cheering for you,</span>
+          <span class="handwritten signature-name">Pratik 💌</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FINALE MODAL -->
+  <div id="finale-modal" class="modal" role="dialog" aria-modal="true" aria-label="Birthday surprise" hidden>
+    <div class="modal-backdrop"></div>
+    <div class="modal-panel finale-modal-panel">
+      <div class="finale-confetti" id="finale-confetti" aria-hidden="true"></div>
+      <div class="finale-content">
+        <div class="gift-box" id="gift-box" onclick="openGift()" role="button" tabindex="0" aria-label="Open gift" onkeypress="if(event.key==='Enter')openGift()">
+          <div class="gift-lid" id="gift-lid"><div class="gift-ribbon-h"></div></div>
+          <div class="gift-base"><div class="gift-ribbon-v"></div></div>
+          <p class="gift-hint" id="gift-hint">Tap to open ↑</p>
+        </div>
+        <div class="finale-reveal" id="finale-reveal" hidden>
+          <div class="finale-petals" aria-hidden="true" id="finale-petals"></div>
+          <h2 class="finale-main-msg">HAPPY 22ND BIRTHDAY,<br/>SHRADDHA! ❤️</h2>
+          <p class="finale-sub">22 years of your beautiful existence. A new chapter begins today. And somewhere in these years, our paths crossed and gave us a story that means so much to me.</p>
+          <p class="finale-small">Your birthday is your day. Your dreams are your own.<br/>I hope this new chapter brings you countless reasons to smile.</p>
+          <button class="btn btn-outline" onclick="replayStory()">Replay Our Story</button>
+        </div>
+      </div>
+      <button class="modal-close finale-modal-close" onclick="closeFinale()" aria-label="Close">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- PHOTO LIGHTBOX -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+    <div class="lightbox-backdrop" onclick="closeLightbox()"></div>
+    <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close photo">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <button class="lightbox-nav lightbox-prev" onclick="lightboxPrev()" aria-label="Previous photo">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <button class="lightbox-nav lightbox-next" onclick="lightboxNext()" aria-label="Next photo">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+    <div class="lightbox-inner">
+      <img id="lightbox-img" src="" alt="" />
+      <p id="lightbox-caption" class="lightbox-caption"></p>
+      <p id="lightbox-counter" class="lightbox-counter"></p>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

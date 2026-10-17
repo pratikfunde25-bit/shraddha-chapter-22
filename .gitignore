@@ -1,0 +1,15 @@
+# System files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
+
+# Temp files
+*.tmp
+*.log
+
+# Audio placeholder (don't commit missing audio)
+audio/PLACE_YOUR_SONG_HERE.txt
