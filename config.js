@@ -1,49 +1,49 @@
 /**
  * ═══════════════════════════════════════════════════════════════
- *  SHRADDHA — CHAPTER 22 ❤️
+ *  SHRADHA — CHAPTER 22 ❤️
  *  EDITABLE CONTENT CONFIGURATION FILE
  *
- *  Cinematic, interactive birthday love story for Shraddha
+ *  Cinematic, interactive birthday love story for Shradha
  * ═══════════════════════════════════════════════════════════════
  */
 
 const SITE_CONFIG = {
 
   /* ── PERSONAL DETAILS ──────────────────────────────── */
-  name: "Shraddha",
+  name: "Shradha",
   myName: "Pratik",
   birthday: "2026-10-18",          // 18 October 2026
   timezone: "Asia/Kolkata",
   ageturning: 22,
-  projectTitle: "Shraddha — Chapter 22",
+  projectTitle: "Shradha — Chapter 22",
   location: "Mumbai, Maharashtra",
 
   /* ── MUSIC ─────────────────────────────────────────── */
   music: {
     src: "audio/song.mp3",
-    title: "Our Song",
+    title: "Heartwarming — Our Special Melody ❤️",
   },
 
   /* ── LETTER ────────────────────────────────────────── */
   letter: [
     "Happy Birthday, my love. ❤️🎂🫶🏻",
     "It's 12 AM, and a new chapter of your life has begun. Today, the girl who means more to me than words can ever explain turns 22. And before anything else, I want you to know how incredibly lucky I feel to have you in my life.",
-    "Shraddha, sometimes I sit and think about our journey, and I genuinely smile at how beautifully unexpected it has been. Who would have thought that two people who met because of DSA in college would one day become such an important part of each other's lives? We started as classmates, and honestly, our beginning wasn't even that perfect. 😂❤️ You didn't like my attitude, we had our misunderstandings, and there was a time when you probably never imagined that I would become someone so close to your heart.",
-    "But look at us now, my love. 🥹❤️ From being almost like enemies to becoming two people who share so many beautiful memories, our story has become one of the most precious things in my life. And if someone asked me what one of the most beautiful surprises life has given me is, I would say YOU, SHRADDHA. YOU ARE ONE OF THE MOST BEAUTIFUL THINGS THAT HAS EVER HAPPENED TO ME. ❤️🫂",
+    "Shradha, sometimes I sit and think about our journey, and I genuinely smile at how beautifully unexpected it has been. Who would have thought that two people who met because of DSA in college would one day become such an important part of each other's lives? We started as classmates, and honestly, our beginning wasn't even that perfect. 😂❤️ You didn't like my attitude, we had our misunderstandings, and there was a time when you probably never imagined that I would become someone so close to your heart.",
+    "But look at us now, my love. 🥹❤️ From being almost like enemies to becoming two people who share so many beautiful memories, our story has become one of the most precious things in my life. And if someone asked me what one of the most beautiful surprises life has given me is, I would say YOU, SHRADHA. YOU ARE ONE OF THE MOST BEAUTIFUL THINGS THAT HAS EVER HAPPENED TO ME. ❤️🫂",
     "Do you remember Marine Drive? 🌊✨ Those walks, those moments together, travelling in a taxi, exploring the city, and spending time with each other without even realizing how quickly the hours passed. I still remember how we imagined coming back there after five or ten years, having our own flat, looking at the same sea, and living a life together. That conversation might have sounded like a dream, but for me, it became one of those little moments that I want to keep in my heart forever.",
     "Whenever I think about that dream, I don't just imagine a flat or a beautiful place to live. I imagine the ordinary days we could share. Coming home after a tiring day, telling each other about everything that happened, laughing over silly things, supporting each other's dreams, and finding peace in knowing that we have someone who understands us.",
     "And then there is our Juhu Beach story. ❤️🌙 How can I ever forget that? The questions you asked me, the way we spoke about our feelings, our future, and whether we could really imagine a life together. That night, when we spent time together until around 2–3 AM, became so much more than just a night at the beach. It became a part of our story that I will always remember with a smile. Our first hug, our first kiss, and those feelings that words could barely explain at the time. 🫂💋❤️",
-    "And Shraddha, our SPIT MCA journey has given me another collection of memories that I treasure so much. 🎓❤️ Our college days, our tired faces after sitting in the library, and those visits to the SPIT lake whenever we needed a little break. Walking around that circular path together, completing our rounds while talking about our thoughts, feelings, dreams, and future. We didn't always need a special plan; sometimes, just walking beside you and talking about life made everything feel lighter.",
+    "And Shradha, our SPIT MCA journey has given me another collection of memories that I treasure so much. 🎓❤️ Our college days, our tired faces after sitting in the library, and those visits to the SPIT lake whenever we needed a little break. Walking around that circular path together, completing our rounds while talking about our thoughts, feelings, dreams, and future. We didn't always need a special plan; sometimes, just walking beside you and talking about life made everything feel lighter.",
     "I want you to know something else, my love. I don't love you only for the beautiful memories we have already made. I love the person you are, the person you are becoming, your dreams, your individuality, and all the beautiful things that make you you. I want to see you succeed, achieve the things you dream about, become proud of yourself, and discover just how capable you are.",
-    "Because, Shraddha, I don't want to build a relationship that is beautiful only in photographs. I WANT TO BUILD A LOVE THAT FEELS BEAUTIFUL IN REAL LIFE, TOO. ❤️🫶🏻",
-    "SHRADDHA, I WANT YOU IN MY FUTURE. NOT JUST IN MY HAPPY MEMORIES, BUT IN THE EVERYDAY LIFE THAT WE HAVE YET TO BUILD. ❤️",
+    "Because, Shradha, I don't want to build a relationship that is beautiful only in photographs. I WANT TO BUILD A LOVE THAT FEELS BEAUTIFUL IN REAL LIFE, TOO. ❤️🫶🏻",
+    "SHRADHA, I WANT YOU IN MY FUTURE. NOT JUST IN MY HAPPY MEMORIES, BUT IN THE EVERYDAY LIFE THAT WE HAVE YET TO BUILD. ❤️",
     "So today, on your 22nd birthday, I don't just want to wish you a happy birthday. I want to thank you for the memories we have made, for the feelings we have shared, for the journey that brought us closer, and for the opportunity to keep discovering what our story can become.",
-    "HAPPY 22ND BIRTHDAY, MY SHRADDHA. 🎂❤️🎉",
+    "HAPPY 22ND BIRTHDAY, MY SHRADHA. 🎂❤️🎉",
     "Always with love, Your Pratik. ❤️",
     "P.S. When you finish reading this, please smile for me. Because if there is one thing I wish for tonight, it is that you go to sleep feeling loved, appreciated, and genuinely happy. You deserve that, birthday girl. 🥹❤️🫶🏻",
   ],
 
-  /* ── 22 MEMORIES ───────────────────────────────────── */
+  /* ── 22 MEMORIES (ALL 22 UNIQUE IMAGES) ───────────── */
   memories: [
     {
       id: 1,
@@ -60,8 +60,8 @@ const SITE_CONFIG = {
       title: "Just Classmates",
       caption: "At first, we were simply two people sharing the same college world — the same classrooms, the same schedules, the same ordinary days.",
       date: "SPIT MCA",
-      image: "images/college-library.jpg",
-      imageAlt: "College library and study desks",
+      image: "images/classroom-classmates.jpg",
+      imageAlt: "College lecture hall and classroom",
       quote: "Before everything began, we were just two students in the same room.",
       layout: "right",
     },
@@ -70,8 +70,8 @@ const SITE_CONFIG = {
       title: "The Attitude Problem",
       caption: "You didn't exactly like my attitude at first! 😂 Our beginning was far from perfect and we had our misunderstandings. Not every great story starts with love at first sight.",
       date: "Early College Days",
-      image: "images/chai-conversations.jpg",
-      imageAlt: "College conversations over tea",
+      image: "images/playful-disagreement.jpg",
+      imageAlt: "Playful lighthearted banter in college corridor",
       quote: "Even rough beginnings can lead somewhere beautiful.",
       layout: "left",
     },
@@ -80,18 +80,18 @@ const SITE_CONFIG = {
       title: "From Rivals to Something More",
       caption: "Somehow, the two people who barely got along and seemed like enemies gradually started understanding each other. That subtle, unplanned shift changed everything.",
       date: "SPIT MCA",
-      image: "images/college-library.jpg",
-      imageAlt: "SPIT College library corner",
+      image: "images/library-connection.jpg",
+      imageAlt: "Reaching for books in library aisle with warm smiles",
       quote: "The best friendships often start in the most unexpected ways.",
       layout: "right",
     },
     {
       id: 5,
       title: "The First Signs",
-      caption: "Little by little, our conversations started lasting longer. We shared smiles after class, and something genuine was quietly taking root between us.",
+      caption: "Little by little, our conversations started lasting longer. We shared smiles after class over cutting chai, and something genuine was quietly taking root between us.",
       date: "College Days",
       image: "images/chai-conversations.jpg",
-      imageAlt: "Heart to heart conversation",
+      imageAlt: "Heart to heart conversation over chai",
       quote: "Love grows quietly, long before it announces itself.",
       layout: "left",
     },
@@ -100,8 +100,8 @@ const SITE_CONFIG = {
       title: "Marine Drive",
       caption: "The sea, the evening breeze and the Queen's necklace lights glowing around Mumbai. Walking together by the waves without realizing how quickly the hours flew.",
       date: "Marine Drive, Mumbai",
-      image: "images/hero-bg.jpg",
-      imageAlt: "Marine Drive at night, Mumbai",
+      image: "images/marine-drive-walk.jpg",
+      imageAlt: "Walking along Marine Drive promenade at twilight",
       quote: "The city lights never looked as beautiful as they did beside you.",
       layout: "right",
       feature: false,
@@ -140,10 +140,10 @@ const SITE_CONFIG = {
     {
       id: 10,
       title: "The Taj Hotel from Afar",
-      caption: "A breathtaking Mumbai view that became part of our story — looking at the majestic Taj Mahal Palace from across the open harbour waters.",
+      caption: "A breathtaking Mumbai view that became part of our story — looking at the majestic Taj Mahal Palace and Gateway of India from across the open harbour waters.",
       date: "Mumbai Harbour",
-      image: "images/boat-ride.jpg",
-      imageAlt: "View of Taj Hotel from the water",
+      image: "images/taj-hotel-view.jpg",
+      imageAlt: "Taj Mahal Palace Hotel and Gateway of India at sunset",
       quote: "Iconic landmarks become unforgettable when shared with someone special.",
       layout: "right",
     },
@@ -160,10 +160,10 @@ const SITE_CONFIG = {
     {
       id: 12,
       title: "The Road to Juhu Beach",
-      caption: "A call, a journey, and a night that neither of us knew would turn into a turning point for our entire relationship.",
+      caption: "A call, a journey along palm-lined night roads, and a night that neither of us knew would turn into a turning point for our entire relationship.",
       date: "Juhu, Mumbai",
-      image: "images/mumbai-taxi.jpg",
-      imageAlt: "Road to Juhu Beach at night",
+      image: "images/juhu-road-night.jpg",
+      imageAlt: "Palm-lined road to Juhu Beach at night",
       quote: "Some roads lead to places; others lead to people.",
       layout: "right",
     },
@@ -172,8 +172,8 @@ const SITE_CONFIG = {
       title: "The Questions That Changed Everything",
       caption: "You asked me honest, fearless questions about feelings, about the future, about marriage, and whether we could truly imagine a life together. That honesty took my breath away.",
       date: "Juhu Beach",
-      image: "images/juhu-beach.jpg",
-      imageAlt: "Juhu Beach under the stars",
+      image: "images/beach-questions.jpg",
+      imageAlt: "Sitting side-by-side on Juhu Beach talking under the stars",
       quote: "It takes real courage to ask the questions that matter most.",
       layout: "left",
       feature: false,
@@ -181,10 +181,10 @@ const SITE_CONFIG = {
     {
       id: 14,
       title: "Your First Confession",
-      caption: "The moment when the unspoken feelings finally found their voice. Sitting near the water, everything suddenly became so clear and honest.",
+      caption: "The moment when the unspoken feelings finally found their voice. Sitting near the water, our hands finding each other on the cool sand, everything became so clear and honest.",
       date: "Late Night, Juhu",
-      image: "images/juhu-beach.jpg",
-      imageAlt: "Moonlit beach shore",
+      image: "images/beach-confession.jpg",
+      imageAlt: "Hands clasping gently on cool beach sand under moonlight",
       quote: "Some feelings are too real to stay unspoken forever.",
       layout: "right",
       feature: true,
@@ -215,8 +215,8 @@ const SITE_CONFIG = {
       title: "Our First Kiss",
       caption: "Soft, gentle, and unforgettable beneath the moon and stars. A memory etched into the deepest corner of my heart.",
       date: "By the Arabian Sea",
-      image: "images/beach-hug.jpg",
-      imageAlt: "Romantic tender moment by the ocean",
+      image: "images/first-kiss.jpg",
+      imageAlt: "First kiss silhouette by moonlit sea waves",
       quote: "The sweetest chapter in our story.",
       layout: "left",
     },
@@ -226,7 +226,7 @@ const SITE_CONFIG = {
       caption: "Back in college, sharing the MCA hustle — long lectures, assignments, coding, and the comfort of having you right beside me through it all.",
       date: "SPIT Campus",
       image: "images/college-library.jpg",
-      imageAlt: "SPIT MCA college study life",
+      imageAlt: "SPIT MCA college study life in library",
       quote: "Hard work feels easy when you're working toward the same future.",
       layout: "right",
     },
@@ -245,8 +245,8 @@ const SITE_CONFIG = {
       title: "Ordinary Days & Silly Laughter",
       caption: "Coming home after a tiring day, telling each other every little thing that happened, laughing over silly jokes, and knowing we have each other.",
       date: "Everyday Love",
-      image: "images/chai-conversations.jpg",
-      imageAlt: "Sharing stories and laughter",
+      image: "images/cozy-laughter.jpg",
+      imageAlt: "Cozy laughter and warm mugs together at home",
       quote: "I want to build a love that feels beautiful in real life, too.",
       layout: "right",
     },
@@ -264,7 +264,7 @@ const SITE_CONFIG = {
     {
       id: 22,
       title: "Chapter 22 & Forever",
-      caption: "Today, on your 22nd birthday, I celebrate you, Shraddha. The girl who turned into my world. Here's to your 22nd year, to our story, and to every chapter still waiting to be written.",
+      caption: "Today, on your 22nd birthday, I celebrate you, Shradha. The girl who turned into my world. Here's to your 22nd year, to our story, and to every chapter still waiting to be written.",
       date: "18 October 2026",
       image: "images/birthday-celebration.jpg",
       imageAlt: "22nd Birthday celebration with cake and roses",
@@ -297,7 +297,7 @@ const SITE_CONFIG = {
     { id: 19, icon: "🎨", text: "I love your individuality, your mind, and everything that makes you uniquely you." },
     { id: 20, icon: "🎁", text: "I love that out of all life's surprises, you are the most precious gift I ever received." },
     { id: 21, icon: "🎂", text: "I love celebrating you today as you turn 22, my gorgeous birthday girl." },
-    { id: 22, icon: "❤️", text: "I love you, Shraddha — and I want you beside me in every chapter of my future." },
+    { id: 22, icon: "❤️", text: "I love you, Shradha — and I want you beside me in every chapter of my future." },
   ],
 
 };

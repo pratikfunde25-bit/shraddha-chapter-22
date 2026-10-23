@@ -1,4 +1,4 @@
-# Shraddha — Chapter 22 ❤️
+# Shradha — Chapter 22 ❤️
 ## A Cinematic, Interactive Birthday Love Story Website
 
 > *"22 memories. One extraordinary person. A story that is still becoming more beautiful."*
@@ -7,7 +7,7 @@
 
 ## What This Is
 
-A completely personal, handcrafted digital birthday experience for Shraddha's 22nd birthday (28 October 2026). It includes:
+A completely personal, handcrafted digital birthday experience for Shradha's 22nd birthday (18 October 2026). It includes:
 
 - 🎬 **Cinematic hero** with Marine Drive night atmosphere, floating petals and particles
 - ⏱️ **Live countdown** to 28 October 2026, 00:00:00 IST — precise to the second
@@ -116,7 +116,7 @@ For the best experience, host the site so she can open a link on her phone.
 #### Netlify (Free, Easy, Fast)
 1. Go to [netlify.com](https://netlify.com) → Sign up free
 2. Drag the entire `sh birthday` folder onto the Netlify dashboard
-3. You get a URL like `https://shraddha-chapter22.netlify.app`
+3. You get a URL like `https://shradha-chapter22.netlify.app`
 4. Share that link with her
 
 #### GitHub Pages
@@ -162,22 +162,21 @@ sh birthday/
 
 ## Testing Checklist
 
-Before sharing with Shraddha, verify:
+Before sharing with Shradha, verify:
 
 - [ ] Open `index.html` via a local server (not bare `file://`)
 - [ ] Hero section loads with background image and floating petals
 - [ ] "Open Your Birthday Surprise" button works and reveals main content
-- [ ] Countdown shows correct days/hours/minutes/seconds to 28 Oct 2026 IST
+- [ ] Countdown shows correct days/hours/minutes/seconds to 18 Oct 2026 IST
 - [ ] All 22 memory cards display correctly on mobile (test in phone screen width)
 - [ ] Photos appear in memories where you've added them
-- [ ] Placeholder boxes show for memories without photos
 - [ ] All 22 love notes open when tapped
 - [ ] "Read My Letter" opens the letter modal
 - [ ] "One Last Surprise" opens the finale with gift box
 - [ ] Tapping the gift box opens it and shows confetti
 - [ ] "Replay Our Story" returns to the hero section
 - [ ] Music player shows but does NOT autoplay
-- [ ] Music plays when the play button is pressed (if song.mp3 added)
+- [ ] Music plays when the play button is pressed (song.mp3 included)
 - [ ] Lightbox opens when tapping memory photos
 - [ ] Lightbox swipe works on mobile
 - [ ] No horizontal scrolling on any screen size
@@ -189,8 +188,8 @@ Before sharing with Shraddha, verify:
 ## Browser Support
 
 Works in all modern browsers: Chrome, Safari, Firefox, Edge.
-Optimised for mobile (Android & iOS) — Shraddha will most likely open it on her phone.
+Optimised for mobile (Android & iOS) — Shradha will most likely open it on her phone.
 
 ---
 
-*Built with love for Shraddha's 22nd birthday — 28 October 2026* ❤️
+*Built with love for Shradha's 22nd birthday — 18 October 2026* ❤️

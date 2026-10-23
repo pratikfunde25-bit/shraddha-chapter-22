@@ -1,6 +1,6 @@
 /**
  * ═══════════════════════════════════════════════════════════════
- *  SHRADDHA — CHAPTER 22
+ *  SHRADHA — CHAPTER 22
  *  Main Application Script
  * ═══════════════════════════════════════════════════════════════
  */
@@ -9,7 +9,7 @@
 
 /* ── CONFIG SAFETY CHECK ─────────────────────────────────────── */
 if (typeof SITE_CONFIG === 'undefined') {
-  console.error('[Shraddha] config.js not loaded. Check script order.');
+  console.error('[Shradha] config.js not loaded. Check script order.');
 }
 
 const CFG = SITE_CONFIG;
@@ -223,7 +223,7 @@ function startCountdown() {
       cdSecs.textContent  = '00';
       grid.style.display  = 'none';
       banner.classList.remove('hidden');
-      if (heading) heading.textContent = "IT'S YOUR BIRTHDAY, SHRADDHA! 🎉";
+      if (heading) heading.textContent = "IT'S YOUR BIRTHDAY, SHRADHA! 🎉";
       clearInterval(countdownTimer);
       return;
     }
@@ -470,10 +470,11 @@ function initMusic() {
   });
 
   audio.addEventListener('error', () => {
-    console.info('[Music] Audio file not found — music player disabled visually.');
-    const player = document.getElementById('music-player');
-    if (player) player.style.opacity = '0.4';
-    if (toggle) toggle.disabled = true;
+    console.info('[Music] Audio file load issue — attempting relative reload.');
+    if (!audio.src.includes('audio/song.mp3')) {
+      audio.src = 'audio/song.mp3';
+      audio.load();
+    }
   });
 }
 
